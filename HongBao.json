@@ -1,0 +1,1198 @@
+{
+"skeleton": {
+	"hash": "DuWtZmdDqPO9e57aa14t+ajqSyw=",
+	"spine": "3.8.75",
+	"x": -342.82,
+	"y": -507.68,
+	"width": 669.5,
+	"height": 1344,
+	"images": "./Images/",
+	"audio": "D:/QingMu/Luke/PT/抢红包/Spine/Images"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "ROOT", "parent": "root" },
+	{ "name": "HB1-2", "parent": "ROOT", "length": 100, "rotation": 90, "y": -344.32 },
+	{ "name": "HB1-1", "parent": "HB1-2", "rotation": -90, "x": 494.76 },
+	{ "name": "OPEN", "parent": "HB1-1", "x": 2.28, "y": -181.97 },
+	{ "name": "g2", "parent": "ROOT" },
+	{ "name": "g", "parent": "ROOT", "rotation": -37.82, "x": -721.17, "y": 592.61 },
+	{ "name": "Countdowntostart", "parent": "HB1-1", "y": 70.73 },
+	{ "name": "000258", "parent": "Countdowntostart", "y": -93.81 },
+	{ "name": "hours", "parent": "Countdowntostart", "x": -163.24, "y": -164.19 },
+	{ "name": "minutes", "parent": "Countdowntostart", "y": -162.26 },
+	{ "name": "seconds", "parent": "Countdowntostart", "x": 159.82, "y": -163.67 },
+	{ "name": "Deposit", "parent": "HB1-2", "rotation": -90, "x": 213.05 },
+	{ "name": "DepositBt", "parent": "Deposit", "x": 165.89, "y": -69.18 },
+	{ "name": "Bet", "parent": "Deposit", "x": 167.13, "y": -146.89 },
+	{ "name": "jdt1", "parent": "Deposit", "x": -63.96, "y": -148.14 },
+	{ "name": "jdt1-1", "parent": "Deposit", "x": -201.16, "y": -148.14 },
+	{ "name": "jdt2", "parent": "Deposit", "x": -66.54, "y": -70.77 },
+	{ "name": "jdt2-2", "parent": "Deposit", "x": -94.39, "y": -69.22 },
+	{
+		"name": "HB2-1",
+		"parent": "HB1-2",
+		"length": 216.64,
+		"x": 18.66,
+		"y": -15.26,
+		"scaleX": 1.0414,
+		"scaleY": 1.0414
+	},
+	{ "name": "HB2-4", "parent": "HB2-1", "x": 168.73, "y": 16.93 },
+	{ "name": "HB2-3", "parent": "HB2-1", "length": 213.48, "rotation": 0.14, "x": 134.41, "y": 16.44 },
+	{ "name": "HB2-5", "parent": "HB2-1", "length": 323.66, "rotation": -2.42, "x": 214.33, "y": 9.6 },
+	{ "name": "HB1-4", "parent": "HB1-1", "x": -286.36, "y": 159.64 },
+	{ "name": "2888-5000", "parent": "Deposit", "rotation": 90, "y": 134.01 },
+	{ "name": "28885000", "parent": "Deposit", "rotation": 90, "y": 134.01 },
+	{
+		"name": "ZhanPanSaoGuang",
+		"parent": "ROOT",
+		"rotation": 38.44,
+		"x": -319.72,
+		"y": -346.13,
+		"scaleX": 2.3174,
+		"scaleY": 13.3061
+	},
+	{
+		"name": "ZhanPanSaoGuang2",
+		"parent": "ROOT",
+		"rotation": 38.44,
+		"x": -156.66,
+		"y": -124.34,
+		"scaleX": 2.3174,
+		"scaleY": 13.3061
+	},
+	{ "name": "Spin", "parent": "OPEN" },
+	{ "name": "vfx-btn", "parent": "OPEN" },
+	{ "name": "vfx-c", "parent": "OPEN", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "vfx-ks3", "parent": "vfx-c", "color": "ffffffff" },
+	{ "name": "vfx-ks4", "parent": "vfx-c", "color": "ffffffff" },
+	{ "name": "vfx-btn2", "parent": "OPEN", "rotation": 180 },
+	{ "name": "SlotSpinBtn", "parent": "Spin" },
+	{
+		"name": "vfx-lightHb",
+		"parent": "HB2-1",
+		"rotation": -90,
+		"x": 306.1,
+		"y": 18.51,
+		"scaleX": 5.0844,
+		"scaleY": 5.0844,
+		"color": "ffffffff"
+	},
+	{
+		"name": "ZhanPanSaoGuang3",
+		"parent": "ROOT",
+		"rotation": 90,
+		"x": -80.59,
+		"y": 1087.58,
+		"scaleX": 2.6583,
+		"scaleY": 13.3061
+	},
+	{ "name": "SlotJiangJin", "parent": "HB1-1", "x": -5.59, "y": -21.21 },
+	{ "name": "SlotShareBtn", "parent": "HB2-1", "rotation": -90, "x": 228.86, "y": 18.59 },
+	{
+		"name": "ZhanPanSaoGuang4",
+		"parent": "ROOT",
+		"rotation": 38.44,
+		"x": -156.66,
+		"y": -124.34,
+		"scaleX": 2.3174,
+		"scaleY": 13.3061
+	},
+	{ "name": "抢红包6", "parent": "root", "y": 7.2 },
+	{ "name": "hbLight2", "parent": "HB2-1", "rotation": -90, "x": 385.06, "y": 134.06 },
+	{ "name": "hbLight1", "parent": "HB2-1", "rotation": -90, "x": 98.86, "y": -87.34 },
+	{
+		"name": "LG1",
+		"parent": "HB1-2",
+		"rotation": -90,
+		"x": 344.32,
+		"y": 1.8,
+		"scaleX": 4.9015,
+		"scaleY": 4.9015
+	},
+	{
+		"name": "ZhanPanSaoGuang5",
+		"parent": "ROOT",
+		"rotation": 38.44,
+		"x": -156.66,
+		"y": -124.34,
+		"scaleX": 2.3174,
+		"scaleY": 13.3061
+	},
+	{
+		"name": "AngpaoIdleBG",
+		"parent": "HB1-2",
+		"rotation": -90,
+		"x": 285.43,
+		"y": 8.08,
+		"scaleX": 0.5,
+		"scaleY": 0.5
+	},
+	{ "name": "sbbg", "parent": "root", "y": 164.32, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "状态2", "parent": "抢红包6", "x": -4.25, "y": 158.35, "scaleX": 0.501, "scaleY": 0.501 },
+	{
+		"name": "AngpaoIdleBG2",
+		"parent": "HB1-2",
+		"rotation": -90,
+		"x": 264.12,
+		"y": 6.45,
+		"scaleX": 0.4734,
+		"scaleY": 0.4734
+	},
+	{ "name": "vfx-btn3", "parent": "SlotSpinBtn", "x": -2.28, "y": -27.46, "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "sbbg", "bone": "sbbg" },
+	{ "name": "AngpaoIdleBG", "bone": "AngpaoIdleBG", "attachment": "AngpaoIdleBG" },
+	{ "name": "AngpaoIdleBG2", "bone": "AngpaoIdleBG2", "attachment": "AngpaoIdleBG2" },
+	{ "name": "HB2-3", "bone": "HB2-3" },
+	{ "name": "HB2-2", "bone": "HB2-5", "attachment": "HB2-2" },
+	{ "name": "HB2-4", "bone": "HB2-4", "attachment": "HB2-4" },
+	{ "name": "HB2-1", "bone": "HB2-1" },
+	{ "name": "HB1-2", "bone": "HB1-2", "attachment": "HB1-2" },
+	{ "name": "HB1-1", "bone": "HB1-2", "attachment": "HB1-1" },
+	{ "name": "HB1-2CJ", "bone": "HB1-2", "attachment": "HB1-2CJ" },
+	{ "name": "ZhanPanSaoGuang3", "bone": "ZhanPanSaoGuang3", "color": "ff9000ff", "attachment": "ZhanPanSaoGuang", "blend": "additive" },
+	{ "name": "HB1-2CJEnd", "bone": "HB1-2" },
+	{ "name": "HB_CJ", "bone": "HB1-2", "attachment": "HB_CJ" },
+	{ "name": "ZhanPanSaoGuang", "bone": "ZhanPanSaoGuang", "blend": "additive" },
+	{ "name": "HB_CJEnd", "bone": "HB1-2" },
+	{ "name": "seconds", "bone": "seconds" },
+	{ "name": "minutes", "bone": "minutes" },
+	{ "name": "hours", "bone": "hours" },
+	{ "name": "000258", "bone": "000258" },
+	{ "name": "Countdowntostart", "bone": "Countdowntostart" },
+	{ "name": "Deposit", "bone": "Deposit" },
+	{ "name": "jdt1", "bone": "jdt1" },
+	{ "name": "jdt1-1", "bone": "jdt1-1" },
+	{ "name": "28885000", "bone": "28885000" },
+	{ "name": "Bet", "bone": "Bet" },
+	{ "name": "jdt2", "bone": "jdt2" },
+	{ "name": "jdt2-2", "bone": "jdt2-2" },
+	{ "name": "2888-5000", "bone": "2888-5000" },
+	{ "name": "DepositBt", "bone": "DepositBt" },
+	{ "name": "vfx-btn3", "bone": "vfx-btn3", "attachment": "vfx-btn3" },
+	{ "name": "OPEN", "bone": "OPEN" },
+	{ "name": "zx", "bone": "root" },
+	{ "name": "wn2", "bone": "Countdowntostart" },
+	{ "name": "LG1", "bone": "LG1", "attachment": "LG1", "blend": "additive" },
+	{ "name": "vfx-lightHb", "bone": "vfx-lightHb", "blend": "additive" },
+	{ "name": "vfx-ks3", "bone": "vfx-ks3", "blend": "additive" },
+	{ "name": "vfx-ks4", "bone": "vfx-ks4" },
+	{ "name": "Spinbg", "bone": "Spin" },
+	{ "name": "SlotSpinBtn", "bone": "SlotSpinBtn", "attachment": "OpenBtn" },
+	{ "name": "SpinHightLight", "bone": "Spin", "color": "ffffff00", "attachment": "SpinHightLight", "blend": "additive" },
+	{ "name": "vfx-btn", "bone": "vfx-btn", "color": "ffb501ff", "attachment": "vfx-btn", "blend": "additive" },
+	{ "name": "vfx-btn2", "bone": "vfx-btn2", "color": "ffb501ff", "attachment": "vfx-btn", "blend": "additive" },
+	{ "name": "HB_CJ2", "bone": "HB1-2", "attachment": "HB_CJ2" },
+	{ "name": "ZhanPanSaoGuang2", "bone": "ZhanPanSaoGuang2", "color": "ffda13ff", "blend": "additive" },
+	{ "name": "HB_CJ2End", "bone": "HB1-2" },
+	{ "name": "SlotJiangJin", "bone": "SlotJiangJin" },
+	{ "name": "SpinBtnHui", "bone": "SlotSpinBtn" },
+	{ "name": "SlotShareBtn", "bone": "SlotShareBtn" },
+	{ "name": "1", "bone": "root", "color": "fffffff3" },
+	{ "name": "ShareBtnCJ", "bone": "SlotShareBtn", "attachment": "ShareBtnCJ" },
+	{ "name": "ZhanPanSaoGuang4", "bone": "ZhanPanSaoGuang4", "color": "ffda13ff", "attachment": "ZhanPanSaoGuang", "blend": "additive" },
+	{ "name": "ShareBtnCjEnd", "bone": "SlotShareBtn" },
+	{ "name": "抢红包6", "bone": "抢红包6" },
+	{ "name": "hbLight1", "bone": "hbLight1", "blend": "screen" },
+	{ "name": "hbLight2", "bone": "hbLight2", "blend": "screen" },
+	{ "name": "ZhanPanSaoGuang5", "bone": "ZhanPanSaoGuang5", "color": "ffda13ff", "blend": "additive" },
+	{ "name": "状态2", "bone": "状态2", "color": "ffffff89" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"HB_CJ": {
+				"HB_CJ": {
+					"type": "clipping",
+					"end": "HB_CJEnd",
+					"vertexCount": 72,
+					"vertices": [ 619.71, -261.2, 624.04, -258.38, 628.71, -254.12, 635.37, -245.9, 638.26, -240.62, 641.15, -233.15, 642.97, -225.8, 644.16, -219.4, 644.79, -211.23, 646.23, -170.13, 647.93, -124.36, 648.62, -92.59, 649.18, -65.74, 649.62, -37.63, 649.81, -10.81, 649.87, 29.17, 649.5, 70.95, 648.93, 111.02, 647.93, 146.19, 646.86, 174.89, 645.79, 205.53, 644.6, 233.8, 641.08, 247.74, 636.06, 257.67, 628.46, 267.34, 616.15, 275.63, 605.86, 279.21, 591.92, 280.78, 572.33, 281.16, 547.1, 282.23, 501.81, 283.32, 467.16, 284.24, 440.48, 286.31, 405.6, 286.51, 376, 287, 335.3, 287.1, 293.48, 286.8, 257.82, 286.8, 183.35, 284.42, 102.34, 281.45, 25.2, 278.4, 6.84, 276.67, -4.84, 270.63, -14.01, 261.68, -20.5, 249.84, -24, 236.25, -25.12, 212.53, -26.58, 182.08, -27.95, 143.5, -29.01, 100.46, -29.65, 65.82, -30.15, 39.59, -30.15, 12.69, -29.77, -18.37, -29.12, -76.13, -27.61, -126.04, -25.82, -174.8, -24.37, -213.68, -22.25, -239.26, -17.21, -254.2, -9.16, -266.45, 16.68, -270.98, 79.82, -271.31, 139.05, -272.15, 206.58, -273.66, 280.97, -275.34, 357.39, -275.34, 450.78, -274.34, 527.7, -271.48, 584.03, -270.31, 600.08, -268.82, 611.39, -265.52 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"HB1-2CJ": {
+				"HB1-2CJ": {
+					"type": "clipping",
+					"end": "HB1-2CJEnd",
+					"vertexCount": 106,
+					"vertices": [ 632.16, 263.21, 480.45, 263.41, 465.86, 263.18, 455.74, 262.97, 441.46, 261.7, 427.72, 259.96, 409.82, 256.4, 396.99, 251.58, 385.98, 245.37, 377.01, 237.83, 368.81, 228.64, 363.43, 220.78, 358.95, 211.59, 356.4, 199.83, 354.05, 188.16, 354.23, 172.24, 355.31, 156.08, 356.56, 150.39, 334.17, 137.81, 314.64, 120.79, 303.53, 106.91, 257, 43.97, 261.84, -23.55, 297, -91.84, 307.06, -101.82, 318.82, -112.81, 332.88, -123.58, 345.6, -130.92, 356.3, -136.21, 354.71, -146.54, 353.59, -158.23, 353.53, -167.24, 354.72, -181.83, 361.09, -196.54, 368, -209.76, 373.87, -217.44, 387.83, -229.13, 396.86, -233.72, 406.4, -237.34, 420.9, -241.46, 441.48, -245.61, 470.87, -246.45, 511.63, -246.84, 574.28, -245.23, 631.26, -242.6, 627.63, -248.19, 623.45, -251.04, 619.37, -255.23, 612.96, -258.07, 607.29, -260.28, 601.8, -261.75, 595.95, -263.06, 587.53, -264.46, 580, -265.43, 573.87, -265.11, 549.36, -266.8, 483.28, -270.05, 438.04, -270.94, 409.63, -269.62, 401.13, -266.86, 389.57, -263.04, 380.28, -258.71, 371.68, -254.38, 361.45, -246.59, 353.39, -239.15, 346.25, -232.72, 338.85, -222.56, 334.18, -212.77, 329.26, -202.02, 325.56, -190.2, 323.85, -179.64, 322.1, -168.85, 323.04, -153.61, 319.15, -150.55, 308.79, -143.11, 298.33, -135.57, 290.14, -127.84, 276.12, -110.77, 263.81, -100.37, 254.37, -93.61, 229.32, -70.07, 214.43, -38.43, 210.5, -4.1, 210.5, 28.99, 221.84, 84.05, 238.65, 101.01, 250.95, 109.58, 273.01, 127.47, 284.09, 138.47, 298.27, 151.8, 312.28, 161.19, 318.73, 166.89, 319.77, 180.49, 322.53, 200.82, 327.98, 216.76, 337.96, 235.6, 347.36, 250.52, 363.09, 263.72, 381.72, 273.01, 404.25, 278.42, 427.14, 283.27, 455.94, 284.36, 599.09, 279.9, 610.03, 277.2, 620.41, 272.23, 626.61, 267.38 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"ShareBtnCJ": {
+				"ShareBtnCJ": {
+					"type": "clipping",
+					"end": "ShareBtnCjEnd",
+					"vertexCount": 44,
+					"vertices": [ 156.98, 71.54, 147.89, 73.86, -145.4, 73.86, -149.53, 73.44, -156.37, 71.75, -164.1, 69.06, -170.46, 66.21, -177.73, 61.35, -184.49, 55.58, -191.09, 48.05, -196.79, 38.53, -199.72, 29.12, -201.68, 18.75, -202.08, 7.92, -201.27, -3.3, -198.58, -14.29, -193.96, -25.68, -190.03, -30.82, -183.92, -37.82, -177.82, -42.96, -171.05, -47.39, -163.35, -51.55, -154.62, -54.21, -146.35, -55.81, -135.74, -55.98, 95.95, -55.5, 145.64, -55.12, 152.86, -54.53, 158.95, -53.21, 165.04, -50.7, 171.59, -47.39, 179.22, -42.26, 186.47, -35.71, 192.36, -28.92, 196.34, -21.19, 200.01, -10.89, 201.65, -0.07, 201.96, 21.79, 198.97, 32.61, 195.23, 41.08, 189.05, 50.96, 180.93, 58.98, 170.68, 65.92, 163.11, 70.33 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"ZhanPanSaoGuang3": {
+				"ZhanPanSaoGuang": { "x": -119.6, "y": -2.68, "width": 151, "height": 159 }
+			},
+			"ZhanPanSaoGuang4": {
+				"ZhanPanSaoGuang": { "x": -119.6, "y": -2.68, "width": 151, "height": 159 }
+			},
+			"vfx-btn": {
+				"vfx-btn": { "width": 258, "height": 258 }
+			},
+			"HB1-2": {
+				"HB1-2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0.83333, 0, 0.66667, 0, 0.5, 0, 0.33333, 0, 0.16667, 0, 0, 1, 0, 1, 0.16667, 1, 0.33333, 1, 0.5, 1, 0.66667, 1, 0.83333 ],
+					"triangles": [ 6, 7, 8, 6, 8, 9, 5, 6, 9, 5, 9, 10, 4, 5, 10, 4, 10, 11, 3, 4, 11, 3, 11, 12, 2, 3, 12, 2, 12, 13, 1, 2, 13, 1, 13, 0 ],
+					"vertices": [ -31.87, -276.06, -31.87, 287.94, 81.97, 287.94, 195.8, 287.94, 309.63, 287.94, 423.47, 287.94, 537.3, 287.95, 651.13, 287.95, 651.13, -276.05, 537.3, -276.05, 423.47, -276.06, 309.63, -276.06, 195.8, -276.06, 81.97, -276.06 ],
+					"hull": 14,
+					"edges": [ 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 0, 0, 2, 14, 16 ],
+					"width": 564,
+					"height": 683
+				}
+			},
+			"HB2-2": {
+				"HB2-2": { "x": 141.28, "y": 11.59, "rotation": -87.58, "width": 510, "height": 487 }
+			},
+			"LG1": {
+				"LG1": { "width": 200, "height": 200 },
+				"LG2": { "path": "LG1", "width": 200, "height": 200 },
+				"LG3": { "path": "LG2", "width": 200, "height": 200 },
+				"LG4": { "path": "LG3", "width": 200, "height": 200 },
+				"LG5": { "path": "LG4", "width": 200, "height": 200 },
+				"LG6": { "path": "LG5", "width": 200, "height": 200 },
+				"LG7": { "path": "LG6", "width": 200, "height": 200 },
+				"LG8": { "path": "LG7", "width": 200, "height": 200 },
+				"LG9": { "path": "LG8", "width": 200, "height": 200 },
+				"LG10": { "width": 200, "height": 200 },
+				"LG11": { "width": 200, "height": 200 },
+				"LG12": { "width": 200, "height": 200 },
+				"LG13": { "width": 200, "height": 200 },
+				"LG14": { "width": 200, "height": 200 },
+				"LG15": { "width": 200, "height": 200 },
+				"LG16": { "width": 200, "height": 200 },
+				"LG17": { "path": "LG9", "width": 200, "height": 200 }
+			},
+			"HB2-1": {
+				"HB2-1": { "x": 88.97, "y": 19.71, "rotation": -90, "width": 555, "height": 279 }
+			},
+			"HB1-1": {
+				"HB1-1": { "x": 444.13, "y": 5.45, "rotation": -90, "width": 563, "height": 416 }
+			},
+			"SlotSpinBtn": {
+				"OpenBtn": { "y": -12.44, "scaleX": 0.5008, "scaleY": 0.5008, "width": 530, "height": 542 }
+			},
+			"AngpaoIdleBG": {
+				"AngpaoIdleBG": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 669.5, -816, -669.5, -816, -669.5, 816, 669.5, 816 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 335,
+					"height": 408
+				}
+			},
+			"HB2-3": {
+				"HB2-3": { "x": 159.07, "y": 4.38, "rotation": -90.14, "width": 548, "height": 338 }
+			},
+			"HB2-4": {
+				"HB2-4": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -95.26, -275.73, -95.26, 281.27, 86.74, 281.27, 86.74, -275.73 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 84
+				}
+			},
+			"SpinHightLight": {
+				"SpinHightLight": { "width": 287, "height": 287 }
+			},
+			"vfx-lightHb": {
+				"vfx-lightHb": { "scaleX": 1.0029, "scaleY": 1.0029, "width": 141, "height": 160 }
+			},
+			"AngpaoIdleBG2": {
+				"AngpaoIdleBG2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 621, -775.5, -621, -775.5, -621, 775.5, 621, 775.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 311,
+					"height": 388
+				}
+			},
+			"HB_CJ2": {
+				"HB_CJ2": {
+					"type": "clipping",
+					"end": "HB_CJ2End",
+					"vertexCount": 54,
+					"vertices": [ 345.17, 31.73, 342.14, 42.81, 336.59, 56.88, 329.42, 71.08, 321.85, 81.6, 314, 90.92, 307.46, 97.22, 300.84, 102.46, 292.72, 108.22, 284.09, 113.11, 272.04, 118.08, 262.72, 120.91, 254.86, 123.16, 243.54, 124.82, 233.68, 125.55, 222.64, 125.35, 214.54, 124.62, 203.26, 123.16, 193.26, 121.35, 183.59, 117.94, 173.2, 113.89, 164.23, 108.74, 154.23, 101.76, 145.11, 92.97, 139.11, 87.31, 131.99, 78.18, 125.35, 67.84, 120.57, 58.51, 115.74, 46.41, 112.03, 31.86, 110.56, 18.34, 110.66, 5.46, 111.83, -6.65, 114.78, -20.17, 119.17, -32.27, 126.7, -46.92, 135.93, -60.74, 145.88, -71.58, 156.32, -79.95, 167.68, -87.62, 181.17, -94.22, 194.69, -98.7, 211.12, -102.22, 229.45, -103.24, 250.86, -101.34, 269.62, -96.49, 288.81, -87.59, 306.45, -75.43, 323.71, -56.74, 335.66, -37.41, 343.86, -15.15, 346.6, 1.98, 347.13, 16.23, 345.57, 29.6 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"vfx-btn2": {
+				"vfx-btn": { "width": 258, "height": 258 }
+			},
+			"vfx-btn3": {
+				"vfx-btn3": { "width": 648, "height": 652 }
+			}
+		}
+	}
+],
+"animations": {
+	"Open": {
+		"slots": {
+			"jdt1-1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"OPEN": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff", "curve": 0.6, "c2": 0.38, "c4": 0.72 },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"Bet": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"AngpaoIdleBG": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LG1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"jdt2-2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"HB1-2": {
+				"attachment": [
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"vfx-ks4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"HB1-1": {
+				"attachment": [
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"28885000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-ks3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"SlotSpinBtn": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff", "curve": 0.6, "c2": 0.38, "c4": 0.72 },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"Deposit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"hbLight1": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang5": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"wn2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-lightHb": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "vfx-lightHb" }
+				]
+			},
+			"2888-5000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Spinbg": {
+				"color": [
+					{ "color": "f36921b1" }
+				]
+			},
+			"hbLight2": {
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00" }
+				]
+			},
+			"SlotJiangJin": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"jdt1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"jdt2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-btn3": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.1667, "color": "ffffff00" }
+				]
+			},
+			"SlotShareBtn": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"vfx-btn2": {
+				"color": [
+					{ "color": "ffb40000" }
+				]
+			},
+			"AngpaoIdleBG2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"HB2-1": {
+				"attachment": [
+					{ "time": 0.1667, "name": "HB2-1" }
+				]
+			},
+			"HB2-3": {
+				"attachment": [
+					{ "time": 0.1667, "name": "HB2-3" }
+				]
+			},
+			"DepositBt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-btn": {
+				"color": [
+					{ "color": "ffb40000" }
+				]
+			}
+		},
+		"bones": {
+			"HB1-2": {
+				"translate": [
+					{ "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 0.1667, "y": -28.01, "curve": 0.377, "c2": 0.61, "c3": 0.72 },
+					{ "time": 0.2333 }
+				],
+				"scale": [
+					{ "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{
+						"time": 0.1667,
+						"x": 0.363,
+						"y": 1.16,
+						"curve": 0.354,
+						"c2": 0.48,
+						"c3": 0.689,
+						"c4": 0.82
+					},
+					{
+						"time": 0.2333,
+						"x": 1.089,
+						"y": 1.296,
+						"curve": 0.34,
+						"c2": 0.44,
+						"c3": 0.674,
+						"c4": 0.77
+					},
+					{ "time": 0.3667, "x": 0.903, "y": 0.952, "curve": 0.341, "c2": 0.66, "c3": 0.674 },
+					{ "time": 0.5 }
+				]
+			},
+			"Deposit": {
+				"translate": [
+					{ "x": -30.08 }
+				]
+			},
+			"ZhanPanSaoGuang": {
+				"translate": [
+					{ "x": 1048.37, "y": 832.05 }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"translate": [
+					{ "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"HB2-5": {
+				"translate": [
+					{ "x": -143.5, "curve": "stepped" },
+					{ "time": 0.3, "x": -143.5, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "x": 21.52, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4333 }
+				]
+			},
+			"vfx-lightHb": {
+				"scale": [
+					{ "time": 0.2667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "x": 1.573, "y": 1.573 }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"translate": [
+					{ "y": -263.15 }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"translate": [
+					{ "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"SlotJiangJin": {
+				"translate": [
+					{ "y": 31.53 }
+				]
+			},
+			"ZhanPanSaoGuang5": {
+				"translate": [
+					{ "x": -44.24, "y": -35.11, "curve": "stepped" },
+					{ "time": 0.0667, "x": -44.24, "y": -35.11 },
+					{ "time": 0.4667, "x": 760.88, "y": 603.88 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"AngpaoIdleBG2": {
+				"translate": [
+					{ "x": -1.84 }
+				],
+				"scale": [
+					{ "x": 1.001, "y": 1.001 }
+				]
+			}
+		}
+	},
+	"idle1": {
+		"slots": {
+			"Bet": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"LG1": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6, "color": "ffffff92", "curve": "stepped" },
+					{ "time": 2.2333, "color": "ffffff92", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.4667, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3.9, "color": "ffffff92", "curve": "stepped" },
+					{ "time": 5.0667, "color": "ffffff92", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "LG2" },
+					{ "time": 0.4333, "name": "LG3" },
+					{ "time": 0.6, "name": "LG4" },
+					{ "time": 0.8, "name": "LG5" },
+					{ "time": 1, "name": "LG6" },
+					{ "time": 1.2333, "name": "LG7" },
+					{ "time": 1.4, "name": "LG8" },
+					{ "time": 1.6, "name": "LG9" },
+					{ "time": 1.8333, "name": "LG10" },
+					{ "time": 2.0333, "name": "LG11" },
+					{ "time": 2.2333, "name": "LG12" },
+					{ "time": 2.4, "name": "LG13" },
+					{ "time": 2.6333, "name": "LG14" },
+					{ "time": 2.8333, "name": "LG1" },
+					{ "time": 3.0333, "name": "LG2" },
+					{ "time": 3.2667, "name": "LG3" },
+					{ "time": 3.4333, "name": "LG4" },
+					{ "time": 3.6333, "name": "LG5" },
+					{ "time": 3.8333, "name": "LG6" },
+					{ "time": 4.0667, "name": "LG7" },
+					{ "time": 4.2333, "name": "LG8" },
+					{ "time": 4.4333, "name": "LG9" },
+					{ "time": 4.6667, "name": "LG10" },
+					{ "time": 4.8667, "name": "LG11" },
+					{ "time": 5.0667, "name": "LG12" },
+					{ "time": 5.2333, "name": "LG13" },
+					{ "time": 5.4667, "name": "LG14" },
+					{ "time": 5.6667, "name": "LG1" }
+				]
+			},
+			"DepositBt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"28885000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-ks3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 0.5667, "color": "ffffffff", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 1.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.5, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 2.5667, "color": "ffffffff", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 3.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.5, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 4.5667, "color": "ffffffff", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 5.3333, "color": "ffffff00" }
+				]
+			},
+			"SpinHightLight": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "f36921b1", "curve": 0.359, "c2": 0.43, "c3": 0.756 },
+					{ "time": 2.3333, "color": "ffffff00", "curve": 0.26, "c3": 0.618, "c4": 0.44 },
+					{ "time": 3.1333, "color": "f36921b1", "curve": "stepped" },
+					{ "time": 4.3, "color": "f36921b1", "curve": 0.359, "c2": 0.43, "c3": 0.756 },
+					{ "time": 5.6667, "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang5": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"wn2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"hbLight1": {
+				"color": [
+					{ "color": "ffffff8d" },
+					{ "time": 1.4333, "color": "ffffffff" },
+					{ "time": 3.2, "color": "ffffff8d" },
+					{ "time": 4.5333, "color": "ffffffff" },
+					{ "time": 5.6667, "color": "ffffff8d" }
+				]
+			},
+			"2888-5000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Spinbg": {
+				"color": [
+					{ "color": "f36921b1" }
+				]
+			},
+			"vfx-ks4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 0.8667, "color": "ffffffdd", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 1.6333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2.8, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 2.8667, "color": "ffffffdd", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 3.6333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.8, "color": "ffffff00", "curve": 0.284, "c3": 0.625, "c4": 0.38 },
+					{ "time": 4.8667, "color": "ffffffdd", "curve": 0.32, "c2": 0.29, "c3": 0.757 },
+					{ "time": 5.6333, "color": "ffffff00" }
+				]
+			},
+			"SlotShareBtn": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffff00", "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 1.9, "color": "ffba05ff", "curve": "stepped" },
+					{ "time": 2.8, "color": "ffba05ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3.1333, "color": "ffffff00", "curve": 0, "c2": 0.25, "c4": 0.75 },
+					{ "time": 4.1333, "color": "ffba05ff", "curve": "stepped" },
+					{ "time": 5.1333, "color": "ffba05ff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.2, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 2.8, "name": null },
+					{ "time": 3.1333, "name": "ZhanPanSaoGuang" },
+					{ "time": 5.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"ZhanPanSaoGuang": {
+				"translate": [
+					{ "x": 1048.37, "y": 832.05 }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"translate": [
+					{ "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"Spin": {
+				"scale": [
+					{ "time": 0.6, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7, "x": 1.15, "y": 1.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8, "x": 1.1, "y": 1.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.9, "x": 1.2, "y": 1.2, "curve": 0.242, "c3": 0.667, "c4": 0.67 },
+					{ "time": 1.1667 }
+				]
+			},
+			"vfx-btn": {
+				"rotate": [
+					{},
+					{ "time": 1.9, "angle": -120 },
+					{ "time": 3.7667, "angle": 120 },
+					{ "time": 5.6667 }
+				]
+			},
+			"vfx-btn2": {
+				"rotate": [
+					{},
+					{ "time": 1.9, "angle": -120 },
+					{ "time": 3.7667, "angle": 120 },
+					{ "time": 5.6667 }
+				]
+			},
+			"vfx-ks3": {
+				"scale": [
+					{ "time": 0.5, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{
+						"time": 1.3333,
+						"x": 1.904,
+						"y": 1.904,
+						"curve": 0.344,
+						"c2": 0.37,
+						"c3": 0.704,
+						"c4": 0.79
+					},
+					{ "time": 2.5, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{
+						"time": 3.3333,
+						"x": 1.904,
+						"y": 1.904,
+						"curve": 0.344,
+						"c2": 0.37,
+						"c3": 0.704,
+						"c4": 0.79
+					},
+					{ "time": 4.5, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{ "time": 5.3333, "x": 1.904, "y": 1.904 }
+				]
+			},
+			"vfx-ks4": {
+				"scale": [
+					{ "time": 0.8, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{
+						"time": 1.6333,
+						"x": 1.6,
+						"y": 1.6,
+						"curve": 0.344,
+						"c2": 0.37,
+						"c3": 0.704,
+						"c4": 0.79
+					},
+					{ "time": 2.8, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{
+						"time": 3.6333,
+						"x": 1.6,
+						"y": 1.6,
+						"curve": 0.344,
+						"c2": 0.37,
+						"c3": 0.704,
+						"c4": 0.79
+					},
+					{ "time": 4.8, "curve": 0.256, "c3": 0.619, "c4": 0.46 },
+					{ "time": 5.6333, "x": 1.6, "y": 1.6 }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"translate": [
+					{ "y": -263.15, "curve": "stepped" },
+					{ "time": 0.8, "y": -263.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8, "x": 110.03, "y": -1139.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.8667, "y": -263.15, "curve": "stepped" },
+					{ "time": 3.1333, "y": -263.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.1333, "x": 110.03, "y": -1139.95, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.2, "y": -263.15 }
+				]
+			},
+			"SlotJiangJin": {
+				"translate": [
+					{ "y": 31.53 }
+				]
+			},
+			"Deposit": {
+				"translate": [
+					{ "x": -30.08 }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"translate": [
+					{ "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"ZhanPanSaoGuang5": {
+				"translate": [
+					{ "x": 67.56, "y": 53.62, "curve": "stepped" },
+					{ "time": 4.5333, "x": 67.56, "y": 53.62, "curve": 0.25, "c3": 0.75 },
+					{ "time": 5.6, "x": 684.4, "y": 543.18 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			}
+		}
+	},
+	"idle2": {
+		"slots": {
+			"ZhanPanSaoGuang5": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"jdt1-1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"OPEN": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Bet": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"AngpaoIdleBG": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"ZhanPanSaoGuang": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"000258": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"LG1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"jdt2-2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-btn3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-ks4": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"HB1-1": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"28885000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-ks3": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Deposit": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"hbLight1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Countdowntostart": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"wn2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"SlotJiangJin": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"2888-5000": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"HB1-2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"jdt1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"jdt2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"hbLight2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-btn2": {
+				"color": [
+					{ "color": "ffb40000" }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"color": [
+					{ "color": "ffda00ff" }
+				]
+			},
+			"SlotSpinBtn": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"color": [
+					{ "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"HB2-1": {
+				"attachment": [
+					{ "name": "HB2-1" }
+				]
+			},
+			"HB2-3": {
+				"attachment": [
+					{ "name": "HB2-3" }
+				]
+			},
+			"DepositBt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"vfx-btn": {
+				"color": [
+					{ "color": "ffb40000" }
+				]
+			}
+		},
+		"bones": {
+			"Countdowntostart": {
+				"translate": [
+					{ "y": 82.79 }
+				]
+			},
+			"Deposit": {
+				"translate": [
+					{ "x": -30.08 }
+				]
+			},
+			"ZhanPanSaoGuang": {
+				"translate": [
+					{ "x": 1048.37, "y": 832.05 }
+				]
+			},
+			"ZhanPanSaoGuang2": {
+				"translate": [
+					{ "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.65 }
+				]
+			},
+			"ZhanPanSaoGuang3": {
+				"translate": [
+					{ "x": 1048.37, "y": 832.05 }
+				]
+			},
+			"ZhanPanSaoGuang4": {
+				"translate": [
+					{ "x": -119.36, "y": -94.73, "curve": "stepped" },
+					{ "time": 1.8667, "x": -119.36, "y": -94.73 },
+					{ "time": 2.7333, "x": 453.36, "y": 359.81 }
+				],
+				"scale": [
+					{ "x": 0.439, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0.439 },
+					{ "time": 2.3, "x": 0.762 },
+					{ "time": 2.7333, "x": 0.65 }
+				]
+			},
+			"SlotShareBtn": {
+				"scale": [
+					{ "time": 1.5333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.7, "x": 1.15, "y": 1.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.0333, "x": 1.15, "y": 1.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2.2 }
+				]
+			},
+			"ZhanPanSaoGuang5": {
+				"translate": [
+					{ "x": -119.36, "y": -94.73, "curve": "stepped" },
+					{ "time": 1.8667, "x": -119.36, "y": -94.73 },
+					{ "time": 2.7333, "x": 699.09, "y": 554.84 }
+				],
+				"scale": [
+					{ "x": 0.439, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0.439 },
+					{ "time": 2.3, "x": 0.762 },
+					{ "time": 2.7333, "x": 0.65 }
+				]
+			},
+			"AngpaoIdleBG2": {
+				"translate": [
+					{ "x": -1.84 }
+				],
+				"scale": [
+					{ "x": 1.001, "y": 1.001 }
+				]
+			}
+		}
+	}
+}
+}
