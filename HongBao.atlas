@@ -1,6 +1,6 @@
 
 HongBao.png
-size: 2022,1831
+size: 1963,1831
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -27,7 +27,7 @@ HB1-2
   index: -1
 HB2-1
   rotate: false
-  xy: 547, 1149
+  xy: 260, 1149
   size: 553, 276
   orig: 555, 279
   offset: 1, 1
@@ -46,121 +46,114 @@ HB2-3
   orig: 548, 338
   offset: 0, 0
   index: -1
-HB2-4
-  rotate: false
-  xy: 2, 1745
-  size: 256, 84
-  orig: 256, 84
-  offset: 0, 0
-  index: -1
 LG1
   rotate: false
-  xy: 807, 1629
+  xy: 549, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG10
   rotate: false
-  xy: 406, 1488
+  xy: 204, 1480
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG11
   rotate: false
-  xy: 608, 1427
+  xy: 406, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG12
   rotate: false
-  xy: 810, 1427
+  xy: 608, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG13
   rotate: false
-  xy: 1012, 1427
+  xy: 810, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG14
   rotate: false
-  xy: 1214, 1427
+  xy: 1012, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG15
   rotate: false
-  xy: 1416, 1427
+  xy: 1214, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG16
   rotate: false
-  xy: 1618, 1427
+  xy: 1416, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG2
   rotate: false
-  xy: 1009, 1629
+  xy: 751, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG3
   rotate: false
-  xy: 1211, 1629
+  xy: 953, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG4
   rotate: false
-  xy: 1413, 1629
+  xy: 1155, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG5
   rotate: false
-  xy: 1615, 1629
+  xy: 1357, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG6
   rotate: false
-  xy: 1817, 1629
+  xy: 1559, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG7
   rotate: false
-  xy: 2, 1543
+  xy: 1761, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG8
   rotate: false
-  xy: 204, 1491
+  xy: 2, 1491
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG9
   rotate: false
-  xy: 1820, 1427
+  xy: 1618, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -174,21 +167,21 @@ OpenBtn
   index: -1
 SpinHightLight
   rotate: false
-  xy: 260, 1201
+  xy: 815, 1140
   size: 285, 285
   orig: 287, 287
   offset: 1, 1
   index: -1
 ZhanPanSaoGuang
   rotate: true
-  xy: 650, 1682
+  xy: 392, 1682
   size: 147, 155
   orig: 151, 159
   offset: 2, 2
   index: -1
 vfx-btn
   rotate: true
-  xy: 260, 1693
+  xy: 2, 1693
   size: 136, 228
   orig: 258, 258
   offset: 7, 23
@@ -202,14 +195,14 @@ vfx-btn3
   index: -1
 vfx-ks1-1
   rotate: false
-  xy: 2, 1233
+  xy: 2, 1222
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 vfx-lightHb
   rotate: true
-  xy: 490, 1690
+  xy: 232, 1690
   size: 139, 158
   orig: 141, 160
   offset: 1, 1
