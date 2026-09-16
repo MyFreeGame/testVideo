@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "fjGl6EFz23c+0qFH4Y3akDe9cm4=",
+	"hash": "qF5EVL+8PDZ377mzgBma0Gb5MXk=",
 	"spine": "3.8.75",
 	"x": -344.38,
 	"y": -507.68,
@@ -166,7 +166,7 @@
 	{ "name": "OPEN", "bone": "OPEN" },
 	{ "name": "zx", "bone": "root" },
 	{ "name": "wn2", "bone": "Countdowntostart" },
-	{ "name": "LG1", "bone": "LG1", "attachment": "LG1", "blend": "additive" },
+	{ "name": "LG1", "bone": "LG1", "attachment": "LG1", "blend": "screen" },
 	{ "name": "vfx-lightHb", "bone": "vfx-lightHb", "blend": "additive" },
 	{ "name": "vfx-ks3", "bone": "vfx-ks3", "attachment": "vfx-ks1-1", "blend": "additive" },
 	{ "name": "vfx-ks4", "bone": "vfx-ks4", "attachment": "vfx-ks1-1" },
@@ -204,6 +204,9 @@
 					"color": "ce3a3aff"
 				}
 			},
+			"AngpaoIdleBG2": {
+				"AngpaoIdleBG2": { "x": 13.63, "y": 169.43, "width": 621, "height": 776 }
+			},
 			"HB1-2CJ": {
 				"HB1-2CJ": {
 					"type": "clipping",
@@ -222,17 +225,8 @@
 					"color": "ce3a3aff"
 				}
 			},
-			"vfx-ks3": {
-				"vfx-ks1-1": {
-					"type": "mesh",
-					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
-					"triangles": [ 1, 2, 3, 1, 3, 0 ],
-					"vertices": [ 194.5, -194.5, -194.5, -194.5, -194.5, 194.5, 194.5, 194.5 ],
-					"hull": 4,
-					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
-					"width": 256,
-					"height": 256
-				}
+			"ZhanPanSaoGuang3": {
+				"ZhanPanSaoGuang": { "x": -119.6, "y": -2.68, "width": 151, "height": 159 }
 			},
 			"vfx-ks4": {
 				"vfx-ks1-1": {
@@ -307,11 +301,17 @@
 			"ZhanPanSaoGuang4": {
 				"ZhanPanSaoGuang": { "x": -119.6, "y": -2.68, "width": 151, "height": 159 }
 			},
-			"ZhanPanSaoGuang3": {
-				"ZhanPanSaoGuang": { "x": -119.6, "y": -2.68, "width": 151, "height": 159 }
-			},
-			"AngpaoIdleBG2": {
-				"AngpaoIdleBG2": { "x": 13.63, "y": 169.43, "width": 621, "height": 776 }
+			"vfx-ks3": {
+				"vfx-ks1-1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 194.5, -194.5, -194.5, -194.5, -194.5, 194.5, 194.5, 194.5 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 256,
+					"height": 256
+				}
 			},
 			"SlotShareBtn": {
 				"ClaimNow": { "scaleX": 0.5057, "scaleY": 0.5057, "width": 842, "height": 320 }
@@ -357,9 +357,9 @@
 					{ "time": 0.1667, "name": null }
 				]
 			},
-			"vfx-ks4": {
+			"vfx-btn": {
 				"color": [
-					{ "color": "ffffff00" }
+					{ "color": "ffb40000" }
 				]
 			},
 			"Deposit": {
@@ -386,7 +386,7 @@
 					{ "color": "ffda00ff" }
 				]
 			},
-			"jdt1-1": {
+			"jdt1": {
 				"color": [
 					{ "color": "ffffff00" }
 				]
@@ -412,7 +412,7 @@
 					{ "color": "ffffff00" }
 				]
 			},
-			"jdt1": {
+			"vfx-ks4": {
 				"color": [
 					{ "color": "ffffff00" }
 				]
@@ -517,9 +517,9 @@
 					{ "time": 0.1667, "name": "HB2-3" }
 				]
 			},
-			"vfx-btn": {
+			"jdt1-1": {
 				"color": [
-					{ "color": "ffb40000" }
+					{ "color": "ffffff00" }
 				]
 			},
 			"HB1-1": {
@@ -988,7 +988,7 @@
 					{ "color": "ffda00ff" }
 				]
 			},
-			"jdt1-1": {
+			"jdt1": {
 				"color": [
 					{ "color": "ffffff00" }
 				]
@@ -1008,12 +1008,12 @@
 					{ "color": "ffffff00" }
 				]
 			},
-			"Bet": {
-				"color": [
-					{ "color": "ffffff00" }
+			"HB1-1": {
+				"attachment": [
+					{ "name": null }
 				]
 			},
-			"jdt1": {
+			"Bet": {
 				"color": [
 					{ "color": "ffffff00" }
 				]
@@ -1096,14 +1096,14 @@
 					{ "name": "HB2-3" }
 				]
 			},
+			"jdt1-1": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
 			"vfx-btn": {
 				"color": [
 					{ "color": "ffb40000" }
-				]
-			},
-			"HB1-1": {
-				"attachment": [
-					{ "name": null }
 				]
 			},
 			"28885000": {
