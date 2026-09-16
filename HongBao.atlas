@@ -1,216 +1,236 @@
 
 HongBao.png
-size: 2007,1578
+size: 2022,1831
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-AngpaoIdleBG
-  rotate: true
-  xy: 1206, 901
-  size: 335, 408
-  orig: 335, 408
-  offset: 0, 0
-  index: -1
-AngpaoIdleBG2
-  rotate: true
-  xy: 1616, 925
-  size: 311, 388
-  orig: 311, 388
-  offset: 0, 0
+ClaimNow
+  rotate: false
+  xy: 1102, 1109
+  size: 835, 316
+  orig: 842, 320
+  offset: 4, 4
   index: -1
 HB1-1
   rotate: false
-  xy: 2, 10
+  xy: 552, 694
   size: 554, 413
   orig: 563, 416
   offset: 3, 0
   index: -1
 HB1-2
-  rotate: false
-  xy: 640, 893
+  rotate: true
+  xy: 535, 56
   size: 564, 683
   orig: 564, 683
   offset: 0, 0
   index: -1
 HB2-1
   rotate: false
-  xy: 1114, 615
+  xy: 547, 1149
   size: 553, 276
   orig: 555, 279
   offset: 1, 1
   index: -1
 HB2-2
   rotate: false
-  xy: 604, 406
+  xy: 1108, 622
   size: 508, 485
   orig: 510, 487
   offset: 1, 1
   index: -1
 HB2-3
   rotate: false
-  xy: 1206, 1238
+  xy: 2, 809
   size: 548, 338
   orig: 548, 338
   offset: 0, 0
   index: -1
 HB2-4
-  rotate: true
-  xy: 518, 700
+  rotate: false
+  xy: 2, 1745
   size: 256, 84
   orig: 256, 84
   offset: 0, 0
   index: -1
 LG1
   rotate: false
-  xy: 1756, 1376
+  xy: 807, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG10
   rotate: false
-  xy: 1603, 413
+  xy: 406, 1488
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG11
   rotate: false
-  xy: 1669, 723
+  xy: 608, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG12
   rotate: false
-  xy: 1603, 211
+  xy: 810, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG13
   rotate: false
-  xy: 1313, 9
+  xy: 1012, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG14
   rotate: false
-  xy: 1515, 9
+  xy: 1214, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG15
   rotate: false
-  xy: 1717, 9
+  xy: 1416, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG16
   rotate: false
-  xy: 1805, 521
+  xy: 1618, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG2
   rotate: false
-  xy: 558, 204
+  xy: 1009, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG3
   rotate: false
-  xy: 760, 204
+  xy: 1211, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG4
   rotate: false
-  xy: 1401, 413
+  xy: 1413, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG5
   rotate: false
-  xy: 1401, 211
+  xy: 1615, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG6
   rotate: false
-  xy: 1111, 126
+  xy: 1817, 1629
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG7
   rotate: false
-  xy: 558, 2
+  xy: 2, 1543
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG8
   rotate: false
-  xy: 760, 2
+  xy: 204, 1491
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 LG9
   rotate: false
-  xy: 1805, 319
+  xy: 1820, 1427
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 OpenBtn
-  rotate: false
-  xy: 2, 425
+  rotate: true
+  xy: 2, 293
   size: 514, 531
   orig: 530, 542
   offset: 10, 8
   index: -1
 SpinHightLight
   rotate: false
-  xy: 1114, 328
+  xy: 260, 1201
   size: 285, 285
   orig: 287, 287
   offset: 1, 1
   index: -1
 ZhanPanSaoGuang
-  rotate: false
-  xy: 962, 249
+  rotate: true
+  xy: 650, 1682
   size: 147, 155
   orig: 151, 159
   offset: 2, 2
   index: -1
 vfx-btn
   rotate: true
-  xy: 1756, 1238
+  xy: 260, 1693
   size: 136, 228
   orig: 258, 258
   offset: 7, 23
   index: -1
 vfx-btn3
   rotate: true
-  xy: 2, 958
+  xy: 1220, 2
   size: 618, 636
   orig: 648, 652
   offset: 15, 14
   index: -1
-vfx-lightHb
+vfx-ks1-1
   rotate: false
-  xy: 962, 89
+  xy: 2, 1233
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+vfx-lightHb
+  rotate: true
+  xy: 490, 1690
   size: 139, 158
   orig: 141, 160
   offset: 1, 1
+  index: -1
+
+HongBao2.png
+size: 1283,810
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AngpaoIdleBG
+  rotate: false
+  xy: 2, 2
+  size: 656, 806
+  orig: 670, 816
+  offset: 7, 7
+  index: -1
+AngpaoIdleBG2
+  rotate: false
+  xy: 660, 36
+  size: 621, 772
+  orig: 621, 776
+  offset: 0, 3
   index: -1
