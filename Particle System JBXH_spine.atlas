@@ -1,0 +1,97 @@
+
+Particle System JBXH_spine.png
+size: 537,53
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: false
+  xy: 2, 2
+  size: 49, 49
+  orig: 205, 115
+  offset: 78, 33
+  index: -1
+0002
+  rotate: false
+  xy: 155, 2
+  size: 48, 49
+  orig: 205, 115
+  offset: 78, 33
+  index: -1
+0003
+  rotate: false
+  xy: 355, 2
+  size: 35, 49
+  orig: 205, 115
+  offset: 84, 33
+  index: -1
+0004
+  rotate: false
+  xy: 503, 2
+  size: 15, 49
+  orig: 205, 115
+  offset: 94, 33
+  index: -1
+0005
+  rotate: false
+  xy: 392, 2
+  size: 35, 49
+  orig: 205, 115
+  offset: 84, 33
+  index: -1
+0006
+  rotate: false
+  xy: 205, 2
+  size: 48, 49
+  orig: 205, 115
+  offset: 78, 33
+  index: -1
+0007
+  rotate: false
+  xy: 53, 2
+  size: 49, 49
+  orig: 205, 115
+  offset: 78, 33
+  index: -1
+0008
+  rotate: false
+  xy: 255, 2
+  size: 48, 49
+  orig: 205, 115
+  offset: 79, 33
+  index: -1
+0009
+  rotate: false
+  xy: 429, 2
+  size: 35, 49
+  orig: 205, 115
+  offset: 86, 33
+  index: -1
+0010
+  rotate: false
+  xy: 520, 2
+  size: 15, 49
+  orig: 205, 115
+  offset: 96, 33
+  index: -1
+0011
+  rotate: false
+  xy: 466, 2
+  size: 35, 49
+  orig: 205, 115
+  offset: 86, 33
+  index: -1
+0012
+  rotate: false
+  xy: 305, 2
+  size: 48, 49
+  orig: 205, 115
+  offset: 79, 33
+  index: -1
+0013
+  rotate: false
+  xy: 104, 2
+  size: 49, 49
+  orig: 205, 115
+  offset: 78, 33
+  index: -1
